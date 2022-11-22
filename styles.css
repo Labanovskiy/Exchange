@@ -1,0 +1,75 @@
+body {
+    background-color: rgb(185, 183, 183);
+}
+#main {
+   width: 500px;
+   height: 500px;
+   margin: 100px auto;
+   border: 2px solid gray;
+   border-radius: 25px;
+   background-color: #cac7c3;
+}
+#main > h1 {
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.courses {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.course {
+    border: 2px solid gray;
+    width: 25%;
+    height: 200px;  
+    border-radius: 25px;
+    background-color: yellowgreen;
+}
+
+.name_course {
+    font-weight: bold;
+    font-size: 45px;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.value_course {
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.converse {
+    display: flex;
+    justify-content: space-around;
+}
+
+.converse_value {
+    width: 45%;
+    
+}
+.converse_value > label {
+    font-weight: bold;
+    font-size: 25px;
+    padding-left: 25px;
+}
+.converse_value > select {
+    font-size: 20px;
+    width: 80px;
+    background-color: yellowgreen;
+    text-align: center;
+    border: 2px solid gray;
+}
+
+.converse_value > input {
+    margin-top: 20px;
+    padding-top: 15px;
+    font-size: 18px;
+    border-radius: 10px;
+    background-color: yellowgreen;
+    border: 2px solid gray;
+}

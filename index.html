@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width", inistial-scale=1 />
+        <title>Exchange</title>
+        <link rel="stylesheet" href="/styles.css">
+    </head>
+    <body>
+        <div id="main">
+            <h1><i>Exchange</i></h1>
+            <div class="courses">
+                <div class="course">
+                    <div class="name_course">USD</div>
+                    <div class="value_course" data-value="USD">------</div>
+                </div>
+                <div class="course">
+                    <div class="name_course">EUR</div>
+                    <div class="value_course" data-value="EUR">------</div>
+                </div>
+                <div class="course">
+                    <div class="name_course" >PLN</div>
+                    <div class="value_course" data-value="PLN">------</div>
+                </div>
+            </div>
+            <div class="converse">
+                <div class="converse_value">
+                    <label for="name">Take:</label>
+                    <select name="couses">
+                        <option value="UAH">UAH</option>
+                        
+                    </select>
+                    <input type="number" id="input">
+                </div>
+                <div class="converse_value">
+                    <label for="name">Recieve:</label>
+                    <select name="couses" id="select">
+                       
+                        <option value="USD">USD</option>
+                        <option value="EUR">EUR</option>
+                        <option value="PLN">PLN</option>
+                    </select>
+                    <input type="number" id="result">
+                </div>
+
+            </div>
+
+        </div>
+            <script src="/main.js"></script>
+    </body>
+</html>
